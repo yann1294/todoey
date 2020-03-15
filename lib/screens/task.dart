@@ -12,7 +12,9 @@ class TasksScreen extends StatelessWidget {
           child: Icon(
             Icons.add,
           ),
-          onPressed: null
+          onPressed: (){
+            // 
+          }
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
