@@ -19,7 +19,7 @@ class TasksScreen extends StatelessWidget {
             Icons.add,
           ),
           onPressed: (){
-            // 
+
             showModalBottomSheet(context: context, builder: (context) => SingleChildScrollView(
               child: Container(
                 padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
@@ -71,7 +71,7 @@ class TasksScreen extends StatelessWidget {
                   topRight: Radius.circular(20),
                 )
               ),
-              child: TaksList(),
+              child: TaskList(),
             ),
           )
         ],
